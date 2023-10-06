@@ -21,18 +21,28 @@ body {
 }
 
 .navbar > svg {
-    margin-left: 50px;
+  margin-left: 50px;
 }
+
 .navbar > ul {
   position: absolute;
   right: 50px;
   gap: 1rem;
 }
 
+.pages {
+  display: flex;
+  flex-direction: column;
+}
+
+.pages [class$="_page"] {
+  height: 500px;
+  border: black 1px solid; /* remove later */
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
-  position: fixed;
   bottom: 0;
   width: 100%;
 }
