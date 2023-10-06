@@ -5,7 +5,6 @@
 
 body {
   overflow: scroll;
-  background-color: #f3f3f3;
 }
 
 .navbar {
@@ -38,6 +37,17 @@ body {
 .pages [class$="_page"] {
   height: 500px;
   border: black 1px solid; /* remove later */
+}
+
+.download_page {
+  background-color: #f3f3f3;
+}
+
+.tracking_page {
+}
+
+.appeal_page {
+  background-color: #f3f3f3;
 }
 
 .attribution {
