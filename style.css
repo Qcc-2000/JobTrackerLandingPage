@@ -9,17 +9,24 @@ body {
 }
 
 .navbar {
-  background-color: white; 
+  background-color: white;
   position: sticky;
-  top: 0; 
+  top: 0;
   z-index: 100;
   box-shadow: 0 0 5px 0 grey;
   height: 60px;
-}
-
-.navbar > ul {
   display: flex;
   flex-direction: row;
+  align-items: center;
+}
+
+.navbar > svg {
+    margin-left: 50px;
+}
+.navbar > ul {
+  position: absolute;
+  right: 50px;
+  gap: 1rem;
 }
 
 .attribution {
