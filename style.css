@@ -39,13 +39,19 @@ body {
   border: black 1px solid; /* remove later */
 }
 
-.download_page, .tracking_page {
-    display: flex;
-    flex-direction: row;
+.download_page,
+.tracking_page {
+  display: flex;
+  flex-direction: row;
 }
 
 [class$="_details"] {
-  flex: 0.8;
+  flex: 0.5;
+  padding: 5.5rem 3.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  left: 0;
 }
 
 [class$="_image"] {
@@ -53,10 +59,15 @@ body {
 }
 
 [class$="_btn"] {
+    margin-top: 1rem;
   background-color: #f5b502;
   border-radius: 1rem;
   color: black;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+  width: 11rem;
 }
 
 .download_page {
