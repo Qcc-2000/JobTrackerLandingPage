@@ -39,6 +39,26 @@ body {
   border: black 1px solid; /* remove later */
 }
 
+.download_page, .tracking_page {
+    display: flex;
+    flex-direction: row;
+}
+
+[class$="_details"] {
+  flex: 0.8;
+}
+
+[class$="_image"] {
+  flex: 1;
+}
+
+[class$="_btn"] {
+  background-color: #f5b502;
+  border-radius: 1rem;
+  color: black;
+  text-align: center;
+}
+
 .download_page {
   background-color: #f3f3f3;
 }
