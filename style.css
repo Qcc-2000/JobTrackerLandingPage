@@ -208,7 +208,7 @@ body {
   flex-direction: row;
   justify-content: center;
   gap: 3rem;
-  margin-top: 1rem;
+  margin-top: 1.2rem;
 }
 
 .appeal_page_card_item {
@@ -239,13 +239,20 @@ body {
   flex-direction: row;
 }
 
-.appeal_page_integrate_icons,
-.appeal_page_integrate_details {
+.appeal_page_integrate_icons{
   flex: 1;
 }
 
+.appeal_page_integrate_details{
+  flex: 0.6;
+} 
+
 .appeal_page_integrate_details > p {
   max-width: 80%;
+}
+
+.appeal_page_integrate_icons img {
+  max-width: 30px;
 }
 
 .features_page {
