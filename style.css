@@ -212,6 +212,7 @@ body {
   display: flex;
   gap: 1rem;
 }
+
 .grid_text {
   width: 70%;
   display: flex;
@@ -219,11 +220,13 @@ body {
   justify-content: center;
   text-align: center;
 }
+
 .preview_page {
   display: flex;
   justify-content: center;
   width: 100%;
 }
+
 .preview_left {
   width: 60%;
   display: flex;
@@ -232,12 +235,14 @@ body {
   align-items: center;
   padding: 1rem;
 }
+
 .preview_right {
   width: 40%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .preview_grid-container {
   width: 80%;
   display: grid;
@@ -269,6 +274,7 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 .comment_header {
   display: flex;
   flex-direction: column;
@@ -277,6 +283,7 @@ body {
   margin-top: 1rem;
   margin-bottom: 1.5rem;
 }
+
 .comment_avatar {
   display: flex;
   flex-direction: row;
@@ -323,20 +330,24 @@ body {
   line-height: 110%;
   color: black;
 }
+
 .p1_default {
   font-size: 22px;
   line-height: 125%;
   color: black;
 }
+
 .p2_default {
   font-size: 18px;
   line-height: 125%;
   color: black;
 }
+
 .p2_light {
   color: #d9d9d9;
   font-size: 8px;
 }
+
 .h3_default {
   text-align: center;
 }
