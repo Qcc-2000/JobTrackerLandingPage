@@ -185,11 +185,7 @@ body {
   align-items: center;
   justify-content: center;
   color: white;
-}
-
-.features_header {
-  margin-top: 1rem;
-  margin-bottom: 1.5rem;
+  padding: 2rem 1.5rem;
 }
 
 .feature_grid_container {
