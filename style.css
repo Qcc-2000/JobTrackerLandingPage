@@ -148,15 +148,30 @@ body {
   margin-left: 10rem;
 }
 
-.download_page_details > .page_paragraph {
-  padding-top: 0;
+.download_page > .page_paragraph {
   max-width: 70%;
+}
+
+.page_paragraph {
+  padding-top: 0;
   font-family: "Avenir_Light";
   font-weight: bolder;
   font-size: 1.3rem;
 }
 
-.tracking_page {
+.tracking_page_details > h2 {
+  font-family: "Avenir_Black";
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+
+.tracking_page_details > h2 > span {
+  color: #f5b502;
+}
+
+.tracking_page_details > .page_paragraph {
+  max-width: 80%;
+  font-size: 1.3rem;
 }
 
 .appeal_page {
