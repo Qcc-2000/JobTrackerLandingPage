@@ -68,7 +68,6 @@ body {
 
 .pages [class$="_page"] {
   height: 500px;
-  border: black 1px solid; /* remove later */
   min-height: calc(100vh - var(--navbar-height));
 }
 
@@ -126,6 +125,7 @@ body {
 .download_page_details {
   gap: 0;
 }
+
 .download_page_details > .app_description {
   font-family: "Avenir_Black";
   font-size: 1.25rem;
