@@ -97,6 +97,7 @@ body {
 
 [class$="_image"] > img {
   border-radius: 1rem 0 0 1rem;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.10);
   position: absolute;
   max-width: 50%;
   right: 0;
