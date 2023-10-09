@@ -1,3 +1,29 @@
+@font-face {
+  font-family: "Avenir_Black";
+  src: url("assets/font/Avenir_Black.ttf");
+}
+
+
+@font-face {
+  font-family: "Avenir_Book";
+  src: url("assets/font/Avenir_Book.ttf");
+}
+
+@font-face {
+  font-family: "Avenir_Heavy";
+  src: url("assets/font/Avenir_Heavy.ttf");
+}
+
+@font-face {
+  font-family: "Avenir_Light";
+  src: url("assets/font/Avenir_Light.ttf");
+}
+
+@font-face {
+  font-family: "Avenir_Regular";
+  src: url("assets/font/Avenir_Regular.ttf");
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -75,6 +101,10 @@ body {
 
 .download_page {
   background-color: #f3f3f3;
+}
+
+.download_page_details > h1 {
+  font-family: "Avenir_Black";
 }
 
 .tracking_page {
