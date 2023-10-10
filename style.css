@@ -463,3 +463,20 @@ body {
   width: 100%;
   font-family: "Avenir_Book";
 }
+footer {
+  background-color: #d9d9d9;
+  padding: 10px 0;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.social-icons img {
+  width: 30px; /* Adjust the width of your icons */
+  margin: 0 10px; /* Adjust the margin between icons */
+}
