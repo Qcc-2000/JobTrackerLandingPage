@@ -418,36 +418,46 @@ body {
 }
 
 .h1_default {
+  font-family: "Avenir_Black";
   font-size: 64px;
   line-height: 110%;
   color: black;
 }
 
 .h2_default {
+  font-family: "Avenir_Black";
   font-size: 36px;
-  line-height: 110%;
+  line-height: 125%;
   color: black;
 }
 
 .p1_default {
   font-size: 22px;
   line-height: 125%;
-  color: black;
+  color: rgb(199, 194, 194);
 }
 
 .p2_default {
   font-size: 18px;
   line-height: 125%;
   color: black;
+  font-family: "Avenir_Regular";
 }
 
 .p2_light {
-  color: #d9d9d9;
-  font-size: 8px;
+  color: hsl(0, 9%, 87%);
+  font-size: 12px;
+  font-family: "Avenir_Light";
 }
 
 .h3_default {
   text-align: center;
+  font-family: "Avenir_Black";
+}
+
+.p_default {
+  font-family: "Avenir_Regular";
+  padding: 1rem;
 }
 
 .center {
@@ -465,11 +475,12 @@ body {
 }
 footer {
   background-color: #d9d9d9;
-  padding: 10px 0;
-  text-align: center;
+}
+.footer_container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  margin: 0 4rem;
 }
 .social-icons {
   display: flex;
