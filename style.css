@@ -482,11 +482,11 @@ footer {
   align-items: center;
   margin: 0 4rem;
 }
-.social-icons {
+/* .social-icons {
   display: flex;
   justify-content: space-around;
   align-items: center;
-}
+} */
 .social-icons img {
   width: 30px; /* Adjust the width of your icons */
   margin: 0 10px; /* Adjust the margin between icons */
